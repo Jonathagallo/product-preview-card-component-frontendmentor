@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    border-radius: 15px;
+    background: #fff;
+    
+}
+img{
+    border-radius: 15px 0px 0px 15px;
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px;
+    
+}
+.categoria{
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+h1{
+    font-family: "Fraunces", serif;
+    color: #000;
+    font-size: 2rem;
+}
+
+.valor-novo{
+    font-family: "Fraunces", serif;
+    font-size: 1.7rem;
+    margin-right: 20px;
+    color: #3C8067;
+    font-weight: bold;
+}
+.valor-antigo{
+    
+    text-decoration: line-through;
+}
+.preco{
+    display: flex;
+    align-items: center;
+}
+.button{    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: #3C8067;
+    color: #fff;
+    padding: 20px;
+    border-style: none;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+.button::before{
+    content: url(/images/icon-cart.svg);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    
+}
+
+.button:hover{
+    background-color: #1C4939;
+}
+
+
+
+
+footer{
+    text-align: center;
+}
